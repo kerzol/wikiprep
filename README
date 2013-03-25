@@ -3,6 +3,7 @@
 				 Wikiprep
 			      ==============
 			       Zemanta fork
+                           with MediaWiki::DumpFile
 
 	  MediaWiki syntax preprocessor and information extractor
 
@@ -113,6 +114,7 @@ You need a recent version of Perl 5 compiled for a 64 bit architecture with
 the following modules installed (names in parentheses are names of respective
 Debian packages):
 
+MediaWiki::DumpFile
 Parse::MediaWikiDump  (libparse-mediawikidump-perl)
 Regexp::Common        (libregexp-common-perl)
 Inline::C             (libinline-perl)
