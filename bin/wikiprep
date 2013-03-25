@@ -33,7 +33,7 @@ use File::Spec;
 
 use Getopt::Long;
 use Time::localtime;
-use Parse::MediaWikiDump;
+use MediaWiki::DumpFile::Compat;
 use Log::Handler wikiprep => 'LOG';
 use BerkeleyDB;
 use IO::Handle;

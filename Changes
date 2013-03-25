@@ -1,5 +1,11 @@
 Revision history for Wikiprep
 
+3.05.ker 
+
+        Mar 25, 2013
+
+        * Move from Parse::MediaWikiDump to MediaWiki::DumpFile
+
 3.04	Mar 24, 2010
 	* Clean parameter references ({{{...}}}) when used outside
 	  of templates.
