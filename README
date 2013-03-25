@@ -115,7 +115,6 @@ the following modules installed (names in parentheses are names of respective
 Debian packages):
 
 MediaWiki::DumpFile
-Parse::MediaWikiDump  (libparse-mediawikidump-perl)
 Regexp::Common        (libregexp-common-perl)
 Inline::C             (libinline-perl)
 XML::Writer           (libxml-writer-perl)
