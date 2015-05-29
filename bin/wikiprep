@@ -132,7 +132,7 @@ sub loadModules {
 
   require Wikiprep::Templates; 
   use vars qw( %templates );
-  Wikiprep::Templates->import qw( %templates includeTemplates );
+  Wikiprep::Templates->import( qw( %templates includeTemplates ));
 }
 
 sub getFilesToProcess {

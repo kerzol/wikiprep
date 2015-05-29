@@ -6,7 +6,7 @@ use strict;
 use Exporter 'import';
 
 require Wikiprep::Link;
-Wikiprep::Link->import qw/ extractWikiLinks /;
+Wikiprep::Link->import( qw/ extractWikiLinks /);
 
 our @EXPORT_OK = qw( isDisambiguation parseDisambig );
 
