@@ -4,9 +4,18 @@
 			      ==============
 			       Zemanta fork
                            with MediaWiki::DumpFile
+           MediaWiki syntax preprocessor and information extractor
 
-	  MediaWiki syntax preprocessor and information extractor
+Attention!
+==========
 
+The perl package MediaWiki::DumpFile is pretty old, and the latest tested version of wikipedia dump is 0.5.
+
+Using the infomation from https://github.com/wikimedia/mediawiki/commits/master/docs/export-0.6.xsd
+I can imagine that Wikiprep can work well with a dump created before Nov 2011.
+
+One should either rewrite MediaWiki::DumpFile, either find another Wikiprep-like tool.
+More info : https://github.com/kerzol/wikiprep/issues/2
 
 
 Content
